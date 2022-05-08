@@ -8,8 +8,8 @@ $result = "";
 
 switch($Oper){
     case("Add"):
-        $result = $num1 + $num2;
-        break;
+         $result = $num1+ $num2;
+	 break;
     case("Sub"):
         $result = $num1 - $num2;
         break;
@@ -20,6 +20,5 @@ switch($Oper){
         $result = $num1 / $num2;
         break;
 }
-print 'result $result';
-
+echo "result = $result";
 ?>
