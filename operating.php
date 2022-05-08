@@ -1,8 +1,8 @@
 <?php
 
-$Oper = $_GET['operator'];
-$num1 = $_GET['num1'];
-$num2 = $_GET['num2'];
+$Oper = $_POST['operator'];
+$num1 = $_POST['num1'];
+$num2 = $_POST['num2'];
 
 $result = "";
 
@@ -20,6 +20,6 @@ switch($Oper){
         $result = $num1 / $num2;
         break;
 }
+print 'result $result';
 
-echo "결과: " $result "<br>"; 
 ?>
